@@ -4,13 +4,17 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0 140px;
+}
+
 header {
     font-family: "Merriweather", serif;
     color: #FFF;
     text-align: center;
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Banner.png");
     padding: 177px 344px;
-    margin: 50px 140px;
+    margin-top: 50px;
     border-radius: 16px;
 }
 
@@ -21,4 +25,33 @@ header p {
 header h1 {
     font-size: 72px;
     font-weight: 900;
+}
+
+.discount {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+.discount h2 {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    margin-top: 70px;
+}
+
+.discount p {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+}
+
+.discount h3 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.discount img {
+    margin: 48px 0 120px 0;
 }
