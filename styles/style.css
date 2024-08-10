@@ -219,22 +219,6 @@ header h1 {
     display: flex;
 }
 
-.discount-container {
-    position: relative;
-    display: flex;
-    margin-left: 306px;
-}
-
-.girl {
-    position: absolute;
-}
-
-.discount {
-    position: absolute;
-    margin-left: -150px;
-    margin-top: 50px;
-}
-
 .gift {
     position: sticky;
     margin-bottom: -200px;
