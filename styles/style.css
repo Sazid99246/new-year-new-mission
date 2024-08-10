@@ -307,3 +307,53 @@ section {
     border: 0;
     border-radius: 0 50px 50px 0;
 }
+
+footer {
+    background-color: #070211;
+    color: #FFF;
+}
+
+footer p {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.contact {
+    display: flex;
+    padding-top: 120px;
+    justify-content: space-between;
+    margin-left: 140px;
+}
+
+.contact div {
+    margin-right: 280px;
+}
+
+.social-links {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 98px;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 48px 140px;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 140px 120px;
+}
+
+.copyright button {
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFF;
+    background-color: #000;
+    border: 0;
+}
