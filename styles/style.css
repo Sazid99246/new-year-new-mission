@@ -304,6 +304,9 @@ section, footer {
     border-radius: 50px 0 0 50px;
 }
 
+.subscribe form input[type="email"]:focus {
+    outline: 0;
+}
 .subscribe form input[type="submit"] {
     color: #FFF;
     text-align: center;
