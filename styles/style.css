@@ -27,7 +27,7 @@ header h1 {
     font-weight: 900;
 }
 
-section {
+section, footer {
     margin-top: 120px;
 }
 
