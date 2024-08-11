@@ -256,6 +256,15 @@ section, footer {
     gap: 24px;
 }
 
+.portfolio-item {
+    border-radius: 20px;
+}
+
+.portfolio-item:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .subscribe {
     text-align: center;
     background: rgba(255, 0, 0, 0.05);
